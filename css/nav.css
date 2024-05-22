@@ -1,0 +1,238 @@
+.header__wrapper{
+  position: relative;
+  width: 100%;
+  height: 110vh;
+}
+.header__video-container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.header__video-container video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.header__video-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.header__container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 3rem 0 3rem; 
+}
+.header__text{
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border-radius: var(--borders-one);
+}
+.header__text p{ 
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: var(--fs-xs);
+  text-align: center;
+  font-family: var(--ff-title);
+  letter-spacing: 3px;
+}
+.header__text a{
+  color: var(--grey-two);
+  font-weight: 800;  
+  text-transform: uppercase;
+  background: var(--blue-one);
+  padding: 1rem 2rem;
+  border-radius: var(--borders-one);
+  margin-top: 1rem;
+}
+.header__text a:hover{
+  background: var(--blue-two);
+  color: white;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 1s;
+  position: relative;  
+  z-index: 9;
+  background: rgba(0, 218, 255, 0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 218, 255, 1);
+  border-radius: var(--borders-one);
+}
+.header .logo{
+  cursor: pointer;
+}
+.header .logo img{
+  height: 60px;
+  width: auto;
+  transition: all 0.3s;
+}
+nav{
+  width: 65%;
+}
+.header .nav-links{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header .nav-links li:hover, .overlay a:hover{
+  transform: scale(1.2);
+}
+.header .nav-links a{
+  color: white; 
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  text-shadow: 2px 2px 5px #000000;
+}
+.header .nav-links a:hover{
+  color: var(--grey-two);
+  text-shadow: 1px 1px 2px #ffffff;
+}
+.menu {
+  display:none;
+}
+.header .menu{
+  padding: 0.8rem 1.2rem;
+  background: white;
+  border: none;
+  border-radius: var(--borders-one);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.header .menu i{
+  font-size: 1.5rem;
+}
+
+/*Nav Mobile*/
+.header .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background-color: rgba(12, 12, 12, .90);
+  overflow: hidden;
+  transition: all 0.3s ease 0s;
+}
+.header .overlay .overlay-content{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;    
+}
+.header .overlay a{
+  transition: all 0.3s ease 0s;
+  font-weight: 800;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.header .overlay a:hover, 
+.header .overlay a:focus{
+  color: var(--blue-one);
+}
+.header .overlay .close i{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+}
+.header .overlay .close i:hover{
+  color: var(--red-one);
+}
+
+
+/*************MEDIAQUERIES**************/
+
+@media (max-width: 1483px) {
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1150px) {
+
+}
+
+@media (max-width: 950px) {/*2 REM padding*/
+  .header{
+    padding: 1.2rem 2rem;
+  }
+  .header__container{
+    padding: 2rem 2rem 0 2rem; 
+  }
+  nav {
+    display: none;
+  }
+  .menu {
+      display: inherit;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .header__text{
+      width: calc(100% - 4rem);
+  }
+  
+}
+
+@media (max-width: 576px) { /*1 REM padding*/
+  .header__container{
+    padding: 1rem 1rem 0 1rem; 
+  }
+  .header__text{
+    width: calc(100% - 2rem);
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .header .logo img{
+    height: 45px;
+  }
+
+}
+
+@media (max-width: 455px) {
+
+}
+
+@media (max-width: 350px) {
+  .header .logo img{
+    height: 40px;
+  }
+
+}
+
+/**************************************/
