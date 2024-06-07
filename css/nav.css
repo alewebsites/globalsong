@@ -75,9 +75,9 @@
   transition: all 1s;
   position: relative;  
   z-index: 9;
-  background: rgba(0, 218, 255, 0.7);
+  background: rgba(85, 255, 226, 0.8);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
-  border: 1px solid rgba(0, 218, 255, 1);
+  border: 1px solid rgb(36, 255, 218);
   border-radius: var(--borders-one);
 }
 .header .logo{
@@ -89,7 +89,7 @@
   transition: all 0.3s;
 }
 nav{
-  width: 65%;
+  width: 70%;
 }
 .header .nav-links{
   list-style: none;

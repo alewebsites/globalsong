@@ -5,9 +5,10 @@
 :root {
   --grey-two:rgb(31, 31, 31);
   --white-one:rgb(255, 255, 255);
-  --blue-one:rgb(0, 218, 255);
-  --blue-two: rgb(0, 110, 131);
-  --red-one: rgb(255, 24, 0);
+  --blue-one: rgb(85, 255, 226);
+  --blue-two: rgb(0, 230, 191);
+  --pink-one: rgb(255, 80, 164);
+  --purple-one: rgb(80, 56, 94);
 
   --ff-title: "Big Shoulders Display", sans-serif;
   --ff-text: "Nunito Sans", sans-serif;

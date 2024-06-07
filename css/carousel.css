@@ -48,7 +48,7 @@
 }
 .carousel_rightPanel-text{
   position: absolute;
-  border: 5px solid white;
+  border: 5px solid var(--white-one);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -63,7 +63,7 @@
 }
 .carousel_rightPanel-text img{
   width: 250px;
-  filter: invert(100%) hue-rotate(195deg) brightness(200%);
+  filter: invert(100%) hue-rotate(176deg) brightness(200%);
   display: block;
 }
 .carousel_rightPanel-link{
@@ -85,12 +85,12 @@
   border: 3px solid var(--blue-one);
 }
 .carousel_rightPanel-link a:hover:nth-child(1){
-  border: 3px solid var(--blue-two);
-  background: var(--blue-two);
+  border: 3px solid var(--blue-one);
+  background: var(--pink-one);
 }
 .carousel_rightPanel-link a:nth-child(2){
   background: var(--blue-one);
-  color: var(--grey-two);
+  color: var(--grey-one);
 }
 .carousel_rightPanel-link a:hover:nth-child(2){
   background: var(--blue-two);

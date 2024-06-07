@@ -29,11 +29,21 @@
 .form__leftPanel p{
   color: white;
 }
+.form__leftPanel h3{
+  color: var(--blue-one);
+  font-family: var(--ff-title);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 0.4rem;
+}
 .form__leftPanel-social{
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  /* background: red; */
 }
 .form__leftPanel-social a{
   color: white;
@@ -60,6 +70,7 @@
 }
 form{
   background: var(--blue-one);
+  /* background: linear-gradient(to right top, #ff50a4, #db4e9f, #b74c95, #954888, #754278, #6b4f86, #5f5a91, #536598, #448abe, #2bb0da, #2cd6eb, #5ffbf1); */
   padding: 2rem;
   border-radius: var(--borders-one);
   width: 450px;
@@ -82,7 +93,8 @@ form{
 }
 .submit_btn button{
   padding: 1rem 2rem;
-  background: #ff1800;
+  background: var(--purple-one);
+  
   color: white;
   margin: 1rem 0 0 auto;
   border-radius: var(--borders-one);
@@ -94,7 +106,7 @@ form{
   cursor: pointer;
 }
 .submit_btn button:hover{
-  background: #e61700;
+  background: var(--pink-one);
 }
 /***************************************/
 
