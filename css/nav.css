@@ -51,6 +51,7 @@
   text-align: center;
   font-family: var(--ff-title);
   letter-spacing: 3px;
+ 
 }
 .header__text a{
   color: var(--grey-two);
