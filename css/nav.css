@@ -46,9 +46,8 @@
 }
 .header__text p{ 
   color: white;
-  text-transform: uppercase;
   font-weight: 400;
-  font-size: var(--fs-xs);
+  font-size: 3rem;
   text-align: center;
   font-family: var(--ff-title);
   letter-spacing: 3px;
@@ -56,11 +55,13 @@
 .header__text a{
   color: var(--grey-two);
   font-weight: 800;  
-  text-transform: uppercase;
   background: var(--blue-one);
   padding: 1rem 2rem;
   border-radius: var(--borders-one);
   margin-top: 1rem;
+  font-family: var(--ff-title); 
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 .header__text a:hover{
   background: var(--blue-two);

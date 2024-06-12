@@ -35,16 +35,19 @@
   z-index: 1;
 }
 .background__title{
-  background: var(--grey-two);
-  padding: 0.5rem 2rem;
+  background: var(--purple-one);
+  padding: 0.5rem 1.5rem;
   margin-bottom: 0.5rem;
   border-bottom: 5px solid var(--blue-one);
+  border-top-left-radius: var(--borders-one);
+  border-top-right-radius: var(--borders-one);
 }
 .about__leftSide h2{
   font-family: var(--ff-title);
   font-size: var(--fs-titles);
   color: white;
-  font-weight: 600;  
+  font-weight: 800;
+  letter-spacing: 2px;  
 }
 .about__rightSide{
   width: 600px;

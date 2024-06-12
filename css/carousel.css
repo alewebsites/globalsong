@@ -60,6 +60,7 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
+  
 }
 .carousel_rightPanel-text img{
   width: 250px;
@@ -77,9 +78,11 @@
   width: 250px;
   text-align: center;
   color: white;
-  text-transform: uppercase;
   font-weight: 800;
   border-radius: var(--borders-one);
+  font-family: var(--ff-title);
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 .carousel_rightPanel-link a:nth-child(1){
   border: 3px solid var(--blue-one);
@@ -141,12 +144,11 @@
   padding-right: 2rem;
 }
 .keys h2{
-  font-family: var(--ff-title);
-  font-size:  var(--fs-sub-tittles);
+  font-size:  var(--fs-highlights);
   font-weight: 900;
-  letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
+  text-align: right;
 }
 .sostenido{
   background: rgb(24, 24, 24);

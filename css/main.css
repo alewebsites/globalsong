@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 /***************DEFAULTS*****************/
 
@@ -10,12 +10,11 @@
   --pink-one: rgb(255, 80, 164);
   --purple-one: rgb(80, 56, 94);
 
-  --ff-title: "Big Shoulders Display", sans-serif;
-  --ff-text: "Nunito Sans", sans-serif;
+  --ff-title: "Shadows Into Light Two", cursive;
+  --ff-text: Helvetica, sans-serif;
 
   --borders-one: 4px;
   --borders-two: 8px;
-
   --space-btw: 6rem;
 
   --fs-xxl: clamp(3rem, 6vw + 1rem, 12rem);
@@ -88,6 +87,20 @@ body, html {
 }
 h1, h2, h3, h4, h5, h6 {
   color: var(--grey-two);
+}
+::placeholder {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.2);
+  font-family: var(--ff-title);
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgba(0, 0, 0, 0.2);
+  font-family: var(--ff-title);
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 
 /****************************************/

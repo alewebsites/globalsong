@@ -31,11 +31,11 @@
 }
 .form__leftPanel h3{
   color: var(--blue-one);
-  font-family: var(--ff-title);
-  font-size: 1.4rem;
+  /* font-family: var(--ff-title); */
+  /* font-size: 1.2rem; */
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   margin-bottom: 0.4rem;
 }
 .form__leftPanel-social{
@@ -47,6 +47,7 @@
 }
 .form__leftPanel-social a{
   color: white;
+  
 }
 .form__leftPanel-social a:hover{
   color: var(--blue-one);
@@ -70,18 +71,14 @@
 }
 form{
   background: var(--blue-one);
-  /* background: linear-gradient(to right top, #ff50a4, #db4e9f, #b74c95, #954888, #754278, #6b4f86, #5f5a91, #536598, #448abe, #2bb0da, #2cd6eb, #5ffbf1); */
   padding: 2rem;
   border-radius: var(--borders-one);
   width: 450px;
   box-shadow: rgba(0, 0, 0, 0.7) 10px 20px 30px;
 }
 .form__inputs label{
-  font-weight: 700;
-  letter-spacing: 1px;
   text-align: center;
-  font-family: var(--ff-title);
-  font-weight: 800;
+  font-weight: 600;
 }
 .form__inputs input{
   margin-bottom: 1rem;
@@ -90,20 +87,25 @@ form{
   width: 100%;
   border: none;
   outline: none;
+  margin-top: 0.3rem;
+  font-family: var(--ff-title);
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 .submit_btn button{
   padding: 1rem 2rem;
   background: var(--purple-one);
-  
   color: white;
   margin: 1rem 0 0 auto;
   border-radius: var(--borders-one);
   outline: none;
   width: 100%;
   font-weight: 800;
-  text-transform: uppercase;
   border: none;
   cursor: pointer;
+  font-family: var(--ff-title);
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 .submit_btn button:hover{
   background: var(--pink-one);

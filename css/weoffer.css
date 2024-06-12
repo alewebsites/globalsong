@@ -1,20 +1,6 @@
 .wehoffer__wrappper{
   margin-top: var(--space-btw);
   padding: 3rem 3rem 4rem 3rem;
-  /* background:
-  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-  background-color: #131313;
-  background-size: 20px 20px; */
-
-
-  /* background: linear-gradient(360deg, #ff50a4 0%, #50385e 250%), radial-gradient(90% 164.72% at 100% 100%, #ff50a4 0%, #55ffe2 120%), radial-gradient(100% 148.07% at 0% 0%, #50385e 0%, #50385e 100%);
-  background-blend-mode: overlay, difference, normal; */
-
   background: url(../media/offer/gradiente.png) no-repeat center center;
   background-size: cover;
 
@@ -33,10 +19,9 @@
   color: white;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: var(--fs-xs);
+  font-size: 3rem;
   text-align: center;
-  font-family: var(--ff-title);
-  letter-spacing: 3px;
+  font-weight: bolder;
 }
 .weoffer__title p{
   color: var(--blue-one);
@@ -65,12 +50,12 @@
 }
 .weoffer__article h2{
   color: var(--blue-one);
-  text-transform: uppercase;
   font-size: var(--fs-text);
   margin-top: 1rem;
   font-weight: 800;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-align: center;
+  font-family: var(--ff-title);
 }
 .weoffer__article p{
   color: white;
@@ -81,11 +66,13 @@
 .weoffer__link a{
   color: var(--grey-two);
   font-weight: 800;  
-  text-transform: uppercase;
+  font-family: var(--ff-title);
   background: var(--blue-one);
   padding: 1rem 2rem;
   border-radius: var(--borders-one);
   margin-top: 1rem;
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 .weoffer__link a:hover{
   background: var(--blue-two);
