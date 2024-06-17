@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/weoffer.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/plans.css">
 
     <script src="https://kit.fontawesome.com/1a99deddcf.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="media/favicon_io/apple-touch-icon.png">
@@ -31,6 +32,7 @@
 
 
 <body>
+    <a href="https://api.whatsapp.com/send?phone=+16263101877&amp;text=Hola%20quisiera%20informacion%20sobre:%20" class="whatsapp__float" target="_blank"><i class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i></a>
 
     <div class="header__wrapper">
 
@@ -46,7 +48,10 @@
 
             <div class="header__text">
                 <p>Descubre cómo ser un músico profesional</p>
-                <a href="#contact">Regístrate</a>
+                <a href="#contact" id="divLa">Regístrate</a>
+                <audio id="laSound">
+                    <source src="media/classes/la.mp3" type="audio/mpeg">  
+                </audio>
             </div>
 
             <header class="header">
@@ -131,7 +136,7 @@
         </div>
     </div>
 
-    <div class="wehoffer__wrappper" id="classes">
+    <div class="wehoffer__wrappper">
         <div class="weoffer__container">
 
             <div class="weoffer__title">
@@ -163,7 +168,11 @@
 
             </div>
             <div class="weoffer__link">
-                <a href="#contact">Regístrate</a>
+            
+                <a href="tel:+16263101877" target="_blank" rel="noopener noreferrer" id="divSi"><i class="fa-solid fa-phone" style="margin-right: 0.5rem;"></i>Contáctanos</a>
+                <audio id="siSound">
+                    <source src="media/classes/si.mp3" type="audio/mpeg">  
+                </audio>
 
             </div>
         </div>
@@ -187,8 +196,14 @@
                         <div class="carousel_rightPanel-text">
                             <img src="media/classes/bajo_icon.gif" alt="" srcset="">
                             <div class="carousel_rightPanel-link">
-                                <a href="#"><i class="fa-solid fa-plus"></i> Información</a>
-                                <a href="#contact">Regístrate</a>
+                                <a href="tel:+16263101877" id="div-1-si"><i class="fa-solid fa-plus"></i> Información</a>
+                                <audio id="si-1">
+                                    <source src="media/classes/si.mp3" type="audio/mpeg">  
+                                </audio>
+                                <a href="#contact" id="div-1-la">Regístrate</a>
+                                <audio id="la-1">
+                                    <source src="media/classes/la.mp3" type="audio/mpeg">  
+                                </audio>
                             </div>
                         </div>
 
@@ -208,8 +223,14 @@
                         <div class="carousel_rightPanel-text">
                             <img src="media/classes/bateria_icon.gif" alt="" srcset="">
                             <div class="carousel_rightPanel-link">
-                                <a href="#"><i class="fa-solid fa-plus"></i> Información</a>
-                                <a href="#contact">Regístrate</a>
+                                <a href="tel:+16263101877" id="div-2-si"><i class="fa-solid fa-plus"></i> Información</a>
+                                <audio id="si-2">
+                                    <source src="media/classes/si.mp3" type="audio/mpeg">  
+                                </audio>
+                                <a href="#contact" id="div-2-la">Regístrate</a>
+                                <audio id="la-2">
+                                    <source src="media/classes/la.mp3" type="audio/mpeg">  
+                                </audio>
                             </div>
                         </div>
                     </div>
@@ -228,8 +249,14 @@
                         <div class="carousel_rightPanel-text">
                             <img src="media/classes/guitarra_acustica_icon.gif" alt="" srcset="">
                             <div class="carousel_rightPanel-link">
-                                <a href="#"><i class="fa-solid fa-plus"></i> Información</a>
-                                <a href="#contact">Regístrate</a>
+                                <a href="tel:+16263101877" id="div-3-si"><i class="fa-solid fa-plus"></i> Información</a>
+                                <audio id="si-3">
+                                    <source src="media/classes/si.mp3" type="audio/mpeg">  
+                                </audio>
+                                <a href="#contact" id="div-3-la">Regístrate</a>
+                                <audio id="la-3">
+                                    <source src="media/classes/la.mp3" type="audio/mpeg">  
+                                </audio>
                             </div>
                         </div>
                     </div>
@@ -248,8 +275,14 @@
                         <div class="carousel_rightPanel-text">
                             <img src="media/classes/guitarra_electrica_icon.gif" alt="" srcset="">
                             <div class="carousel_rightPanel-link">
-                                <a href="#"><i class="fa-solid fa-plus"></i> Información</a>
-                                <a href="#contact">Regístrate</a>
+                                <a href="tel:+16263101877" id="div-4-si"><i class="fa-solid fa-plus"></i> Información</a>
+                                <audio id="si-4">
+                                    <source src="media/classes/si.mp3" type="audio/mpeg">  
+                                </audio>
+                                <a href="#contact" id="div-4-la">Regístrate</a>
+                                <audio id="la-4">
+                                    <source src="media/classes/la.mp3" type="audio/mpeg">  
+                                </audio>
                             </div>
                         </div>
                     </div>
@@ -268,8 +301,14 @@
                         <div class="carousel_rightPanel-text">
                             <img src="media/classes/piano_icon.gif" alt="" srcset="">
                             <div class="carousel_rightPanel-link">
-                                <a href="#"><i class="fa-solid fa-plus"></i> Información</a>
-                                <a href="#contact">Regístrate</a>
+                                <a href="tel:+16263101877" id="div-5-si"><i class="fa-solid fa-plus"></i> Información</a>
+                                <audio id="si-5">
+                                    <source src="media/classes/si.mp3" type="audio/mpeg">  
+                                </audio>
+                                <a href="#contact" id="div-5-la">Regístrate</a>
+                                <audio id="la-5">
+                                    <source src="media/classes/la.mp3" type="audio/mpeg">  
+                                </audio>
                             </div>
                         </div>
                     </div>
@@ -328,6 +367,71 @@
         </div>
     </div>
 
+    <div class="plans" id="classes">
+        <div class="plans__container">
+            <div class="plans__article">
+                <h2>Kids</h2>
+                <img src="media/plans/musica_para_ninos.webp" alt="" srcset="">
+                
+                <div class="paragraph">
+                    <p>Nuestros pequeños tendrán una experiencia inolvidable a través de la iniciación musical y la exploración de diversos instrumentos, donde<span class="dots">...</span> <span class="more">despertarán su creatividad, su imaginación y el desarrollo de habilidades cognitivas y corporales. A medida de este crecimiento musical adquirido, el niño podrá profundizar en sus capacidades de algún instrumento específico de su preferencia. </span></p><button class="myBtn">Leer +</button>
+                </div>
+
+                <ul class="plans__list">
+                    <li>Iniciación musical</li>
+                    <li>Exploración instrumental</li>
+                </ul>
+                <p class="age">(5 a 13 años)</p>
+            </div>
+
+            <div class="plans__article">
+                <h2>Música Cristiana</h2>
+                <img src="media/plans/musica_cristiana.webp" alt="" srcset="">
+
+                <div class="paragraph">
+                    <p>Podrás desarrollar capacidades y habilidades necesarias para la participación de actividades dentro de tu Iglesia y en tu servicio a Dios. Con<span class="dots">...</span> <span class="more"> nuestros profesores expertos en el ámbito eclesial y nuestra metodología práctica, podrás aprender las herramientas fundamentales para ser de gran apoyo y crecimiento en tu congregación. </span></p><button class="myBtn">Leer +</button>
+                </div>
+
+                <ul class="plans__list">
+                    <li>Workshop</li>
+                    <li>Himnos y música de cuerda</li>
+                </ul>
+            </div>
+
+            <div class="plans__article">
+                <h2>Música popular</h2>
+                <img src="media/plans/jazz.webp" alt="" srcset="">
+
+                <div class="paragraph">
+                    <p>Obtendrás herramientas esenciales para el desarrollo de técnicas en la ejecución de los estilos musicales que más te gustan. Podrás<span class="dots">...</span> <span class="more"> presumir con tus amigos y familiares de un repertorio de canciones que tocarán las fibras de tus oyentes; de igual manera disfrutarás de los acordes y melodías de los más grandes éxitos musicales a través de tu interpretación. </span></p><button class="myBtn">Leer +</button>
+                </div>
+
+                <ul class="plans__list">
+                    <li>Rock</li>
+                    <li>Pop</li>
+                    <li>Baladas</li>
+                    <li>Jazz</li>
+                </ul>
+            </div>
+
+            <div class="plans__article">
+                <h2>Música Latina</h2>
+                <img src="media/plans/salsa.webp" alt="" srcset="">
+
+                <div class="paragraph">
+                    <p>Exploraremos la riqueza musical de nuestros países latinoamericanos, desarrollando cualidades fundamentales para el entendimiento<span class="dots">...</span> <span class="more"> e interpretación de un repertorio muy nuestro y que nos representa. Con nuestros maestros profesionales y de diversas nacionalidades aprenderás el lenguaje musical más importante y representativo de cada país. </span></p><button class="myBtn">Leer +</button>
+                </div>
+                
+                <ul class="plans__list">
+                    <li>Boleros</li>
+                    <li>Salsa</li>
+                    <li>Tropical</li>
+                    <li>Folklore internacional</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <div class="form__wrapper" id="contact">
         <div class="form__container">
             <div class="form__leftPanel">
@@ -336,6 +440,10 @@
                 <p>Únete a nuestra vibrante comunidad de adoradores y eleva tus experiencias de alabanza a nuevos niveles. ¡Únete ahora y forma parte de esta inspiradora comunidad!</p>
                 <br>
                 <h3>Contáctanos:</h3>
+                <div class="form__leftPanel-social">
+                    <a href="tel:+16263101877" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-phone" style="margin-right: 1rem;"></i>+1(626) 310-1877</a>
+                </div>
+                <br>
                 <div class="form__leftPanel-social">
                     <a href="mailto:info@globalsongacademy.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope" style="margin-right: 1rem;"></i>info@globalsongacademy.com</a>
                 </div>
@@ -369,7 +477,10 @@
                       <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
                     </div>
                     <div class="form__inputs submit_btn">
-                      <button type="submit">Enviar</button>
+                      <button type="submit" id="div-6-la">Enviar</button>
+                        <audio id="la-6">
+                            <source src="media/classes/si.mp3" type="audio/mpeg">  
+                        </audio>
                     </div>
                   </form>
 
@@ -381,6 +492,7 @@
 <script src="scripts/nav.js"></script>
 <script src="scripts/instruments.js"></script>
 <script src="scripts/pano.js"></script>
+<script src="scripts/some.js"></script>
 
 
 </body>

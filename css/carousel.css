@@ -91,11 +91,11 @@
   border: 3px solid var(--blue-one);
   background: var(--pink-one);
 }
-.carousel_rightPanel-link a:nth-child(2){
+.carousel_rightPanel-link a:nth-child(3){
   background: var(--blue-one);
   color: var(--grey-one);
 }
-.carousel_rightPanel-link a:hover:nth-child(2){
+.carousel_rightPanel-link a:hover:nth-child(3){
   background: var(--blue-two);
   color: white;
 }
