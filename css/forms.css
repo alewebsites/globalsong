@@ -31,19 +31,14 @@
 }
 .form__leftPanel h3{
   color: var(--blue-one);
-  /* font-family: var(--ff-title); */
-  /* font-size: 1.2rem; */
   text-transform: uppercase;
   font-weight: 900;
-  /* letter-spacing: 2px; */
   margin-bottom: 0.4rem;
 }
 .form__leftPanel-social{
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  /* margin-top: 1rem; */
-  /* background: red; */
 }
 .form__leftPanel-social a{
   color: white;
@@ -109,6 +104,15 @@ form{
 }
 .submit_btn button:hover{
   background: var(--pink-one);
+}
+.copy{
+  background: var(--grey-two);
+  padding-bottom: 1rem;
+}
+.copy p{
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
 }
 /***************************************/
 

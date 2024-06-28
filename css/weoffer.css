@@ -3,8 +3,6 @@
   padding: 3rem 3rem 4rem 3rem;
   background: url(../media/offer/gradiente.png) no-repeat center center;
   background-size: cover;
-
-
 }
 .weoffer__container{
   display: flex;
@@ -19,7 +17,7 @@
   color: white;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: var(--fs-xs);
   text-align: center;
   font-weight: bolder;
 }
@@ -127,15 +125,19 @@
 }
 
 @media (max-width: 480px) {
-
+  .weoffer__title h2{
+    font-size: 2.4rem;
+  }
 }
 
 @media (max-width: 455px) {
-
+  .weoffer__title h2{
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 350px) {
-
+  
 }
 
 /**************************************/
